@@ -5,9 +5,9 @@
 - Yeye Jin
 - Antony Taylor
 
-- ## Colab worksheet
-- View on Colab: [https://colab.research.google.com/……](https://colab.research.google.com/drive/1Q5onDLpXZELtnoQGucZNWDMvxwn0eLoA?usp=sharing)
-- Notebook file: `Data_Science_Final.ipynb`
+## Colab Worksheet
+- View on Colab: https://colab.research.google.com/drive/1Q5onDLpXZELtnoQGucZNWDMvxwn0eLoA?usp=sharing
+- Notebook file in this repository: `Data_Science_Final.ipynb`
 
 
 
@@ -44,5 +44,5 @@ The original goal of this project was to explore whether climate and population 
 When I aggregate across years and compare countries instead, a different picture emerges. Countries with higher average annual temperatures over 1990–2020 have higher average population growth rates, while cooler countries have lower growth. The scatterplot of average annual population growth versus average temperature shows this clear pattern, and the Pearson correlation of r=0.71 confirms that the association is fairly strong in this eight-country sample. This suggests that climate is related to population growth in a long-run, cross-country sense, even though it is not strongly tied to year-to-year fluctuations within a country. A plausible interpretation is that hotter countries in this sample are generally at earlier stages of the demographic transition and have higher fertility, whereas cooler countries such as Japan and China are later in the transition with low growth.
 
 There are important limitations in this analysis. The analysis relies on only eight countries, so the statistical results are based on a very small sample. The climate variables are country averages that hide regional differences and do not capture extreme events such as droughts or storms. Population data are partly estimated rather than directly observed, and many key determinants of demographic change, such as fertility behavior, mortality, migration, education, and economic policy, are not explicitly included in the models. Because of these issues, the relationships found here should be interpreted as descriptive patterns, not causal effects of temperature on population growth.
-
-Future work could address these limitations by expanding the sample to include many more countries and, where possible, subnational climate and population data. Incorporating additional variables such as fertility and mortality rates, measures of urbanization, agricultural output, and indicators of climate shocks would make it possible to test more specific mechl
+	
+Future work could address these limitations by expanding the sample to include many more countries and, where possible, subnational climate and population data. Incorporating additional variables such as fertility and mortality rates, measures of urbanization, agricultural output, and indicators of climate shocks would make it possible to test more specific mechanisms connecting climate, development, and demographic change. Within the scope of this project, however, the main conclusion is that climate and population growth do not show a simple year-to-year relationship inside countries, but they do exhibit an association when averaged across decades and compared between countries.
