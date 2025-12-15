@@ -7,8 +7,9 @@
 - Antony Taylor  
 
 This project examines whether climate—specifically average temperature—is related to population growth, using data from eight countries between 1990 and 2020.
+This page contains the live graphs. To see the full writeup, see the README.md
 
-<h2>Methods and Results</h2>
+<h2>Results</h2>
 
 This section presents the main analytical steps and results. Interactive figures are embedded below.
 
