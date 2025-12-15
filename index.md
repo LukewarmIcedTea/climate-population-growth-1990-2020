@@ -1,8 +1,3 @@
----
-layout: default
-title: The Influence of Climate on Population Growth in Eight Countries, 1990–2020
----
-
 # The Influence of Climate on Population Growth in Eight Countries, 1990–2020
 
 **Course:** CS-215 / MATH-215  
