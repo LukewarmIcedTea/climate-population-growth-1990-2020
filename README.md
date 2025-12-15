@@ -24,12 +24,8 @@ First, I plotted the annual mean temperature against the year for all eight coun
 
 To see more of the variation in the climate data, I then calculated, for each country and year, the minimum and maximum of the twelve monthly temperatures. Plotting the annual mean temperature together with the yearly minimum and maximum creates a band that shows the full range of typical conditions in each year. Although this graph gives a better sense of how hot and cool years differ, the population series still increases steadily and does not track the climate band in any obvious way. It remains difficult to see any direct link between temperature levels and population levels in the time-series plots. Because population levels are trending upward almost everywhere, I turned to population change instead. For each country, I computed the annual change in population by subtracting the previous year’s population from the current year’s value. I then graphed population change and annual mean temperature together over time:
 
-<iframe
-  src="figs/fig_country_pop_temp_year.html"
-  width="100%"
-  height="520"
-  style="border:1px solid #ddd; border-radius:8px;">
-</iframe>
+- Population change and temperature over time (interactive):  
+  https://lukewarmicedtea.github.io/climate-population-growth-1990-2020/figs/fig_country_pop_temp_year.html
  
 This transformation allows the population to move up and down from year to year, making it easier to compare with climate fluctuations. However, the resulting graphs again show no clear co-movement: years with relatively high population increases do not consistently line up with unusually hot or unusually cool years. This pattern is the same across all eight countries.
 Since the within-country time-series approach did not reveal a strong relationship, I shifted to a cross-country view. I summarized the data by computing, for each of the eight countries, the average annual temperature and the average annual population growth rate over the period 1990–2020. 
