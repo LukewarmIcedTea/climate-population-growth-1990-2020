@@ -10,20 +10,8 @@ This project examines whether climate—specifically average temperature—is re
 
 <h2>Methods and Results</h2>
 
-<p>
 This section presents the main analytical steps and results. Interactive figures are embedded below.
-</p>
 
-<iframe
-  src="figs/fig_country_pop_temp_year.html"
-  width="100%"
-  height="520"
-  style="border:1px solid #ddd; border-radius:8px;">
-</iframe>
+<iframe src="figs/fig_country_pop_temp_year.html" width="100%" height="520" style="border:1px solid #ddd; border-radius:8px;"></iframe>
 
-<iframe
-  src="figs/fig_pop_growthvs_temp.html"
-  width="100%"
-  height="520"
-  style="border:1px solid #ddd; border-radius:8px;">
-</iframe>
+<iframe src="figs/fig_pop_growthvs_temp.html" width="100%" height="520" style="border:1px solid #ddd; border-radius:8px;"></iframe>
