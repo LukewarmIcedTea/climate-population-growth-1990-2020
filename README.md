@@ -32,12 +32,8 @@ Since the within-country time-series approach did not reveal a strong relationsh
 
 Plotting these eight points on a scatterplot of mean population growth versus mean temperature reveals a clear upward trend: warmer countries such as Ethiopia, Tanzania, Nigeria, India, and The Bahamas have higher average population growth, while cooler countries such as Japan and China have much lower growth, with South Africa in between. Adding an ordinary least squares trendline emphasizes this pattern.
 
-<iframe
-  src="figs/fig_pop_growthvs_temp.html"
-  width="100%"
-  height="520"
-  style="border:1px solid #ddd; border-radius:8px;">
-</iframe>
+- Average population growth vs average temperature (interactive):  
+  https://lukewarmicedtea.github.io/climate-population-growth-1990-2020/figs/fig_pop_growthvs_temp.html
 
 To quantify the strength of this relationship, I calculated the Pearson correlation coefficient between average temperature and average population growth across the eight countries using:
 corr=country_summary["mean_temp"].corr(country_summary["mean_pop_growth"]). The result is r= 0.71, which indicates a fairly strong positive linear association. In this small sample, roughly half of the variation in average population growth between countries can be associated with differences in their average temperatures (since r2≈0.50). This contrast between weak year-to-year associations and a strong cross-country association is the main finding of the project.
