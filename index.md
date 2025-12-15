@@ -14,5 +14,7 @@ This section presents the main analytical steps and results. Interactive figures
 
 <iframe src="figs/fig_country_pop_temp_year.html" width="100%" height="520" style="border:1px solid #ddd; border-radius:8px;"></iframe>
 
+This interactive figure compares annual population change with annual temperature for each country from 1990–2020. Temperature is shown as the annual mean, with a band indicating the yearly min–max range of monthly temperatures. Population change varies substantially year to year, while temperature varies within a relatively narrow range. Across countries, spikes or dips in population change do not consistently align with unusually warm or cool years, suggesting a weak short-run within-country relationship.
+
 <iframe src="figs/fig_pop_growthvs_temp.html" width="100%" height="520" style="border:1px solid #ddd; border-radius:8px;"></iframe>
 
